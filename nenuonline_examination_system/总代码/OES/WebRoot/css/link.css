@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+
+.link a{
+	display:inline-block;
+	text-decoration:none;
+	color:#000000;
+	transform-origin:center;
+	position:relative;
+	left:50%;
+}

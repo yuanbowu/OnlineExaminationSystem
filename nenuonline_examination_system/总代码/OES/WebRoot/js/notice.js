@@ -1,0 +1,41 @@
+$(function(){
+	$(window).load(function(){
+		$(".noticeUl").css("overflow","hidden");
+		$(".noticeDetailsOne").hide();
+		$(".noticeDetailsTwo").hide();
+		$(".noticeDetailsThree").hide();
+		$(".noticeDetailsFour").hide();
+	})
+	$("#liOne").click(function(){
+		$(".noticeUl").css("overflow","visible");
+		$(".noticeDetailsTwo").hide();
+		$(".noticeDetailsThree").hide();
+		$(".noticeDetailsFour").hide();
+		$(".noticeDetailsOne").show();
+	})
+	$("#liTwo").click(function(){
+		$(".noticeUl").css("overflow","visible");
+		$(".noticeDetailsOne").hide();
+		$(".noticeDetailsThree").hide();
+		$(".noticeDetailsFour").hide();
+		$(".noticeDetailsTwo").show();
+	})
+	$("#liThree").click(function(){
+		$(".noticeUl").css("overflow","visible");
+		$(".noticeDetailsOne").hide();
+		$(".noticeDetailsTwo").hide();
+		$(".noticeDetailsFour").hide();
+		$(".noticeDetailsThree").show();
+	})
+	$("#liFour").click(function(){
+		$(".noticeUl").css("overflow","visible");
+		$(".noticeDetailsOne").hide();
+		$(".noticeDetailsTwo").hide();
+		$(".noticeDetailsThree").hide();
+		$(".noticeDetailsFour").show();
+	})
+	$("findMore").click(function(){
+		$(".noticeUl").css("overflow","visible");
+		
+	})	
+})

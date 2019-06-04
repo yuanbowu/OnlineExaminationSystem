@@ -1,0 +1,78 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/userManage.css"/>
+		<script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.min.js"></script>
+		<script type="text/javascript" src="../js/getBodyWidAndHei.js" ></script>
+		
+	</head>
+	<body>
+		<div class="navigation">
+			<div class="indexLogo">
+				
+			</div>
+			<div class="indexLi">
+				<ul class="testUl">
+					<li class="examLi"><a href="../exam/examOut.jsp">在线考试</a><img src="../img/publicSign/右箭头黑.png"></li>
+					<li class="userManageLi"><a href="UserManage.jsp" >用户管理</a><img src="../img/publicSign/右箭头黑.png"></li>
+					<li class="scoreQueryLi"><a href="../answer/answerOut.jsp">成绩查询</a><img src="../img/publicSign/右箭头黑.png"></li>
+					<li class="testQuestionsLi"><a href="../problem/problemOut.jsp">题库管理</a><img src="../img/publicSign/右箭头黑.png"></li>
+					<li class="personManageLi" ><a href="person.jsp" >个人中心</a><img src="../img/publicSign/右箭头黑.png"></li>
+				</ul>
+			</div>
+			
+		</div>
+		<div class="content">
+			<div class="indexPhoto">
+				<div class="photoChose">
+					<div class="photo">
+						
+					</div>
+					<button class="indexLogout" onclick="window.location.href='../servlet/ExitServlet'">
+						退出
+					</bustton>
+				</div>
+			</div>
+			<div class="container">
+				<div class="blockContainer">
+					
+					<!-- 用户的分类 -->
+					<div class="pageClassification" style="display: none;" >
+						<div class="pageClassTitle">
+							<h3>用户分类</h3>
+							
+						</div>
+						
+						<div class="pageClassAll">
+							<button type="button" id="addButton">新建分类</button>
+							<ul id="addUl">
+								<li>教师</li>
+								<li>学生</li>
+								<li>管理员</li>
+								
+							</ul>
+						</div>
+					</div>
+					<div class="pageAll">
+						<div class="pageAllContent">
+							<iframe src="userAll.jsp"></iframe>
+							<button type="button" onclick="window.location.href='addUser.jsp'">增添用户</button>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<script src="../js/addClass.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
+

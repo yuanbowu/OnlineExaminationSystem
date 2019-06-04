@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//WebRoot/UserManagement/ShowUserInfo.jsp=UTF-8
+encoding//WebRoot/UserManagement/changeInformation.jsp=UTF-8
+encoding//WebRoot/UserManagement/userAll.jsp=UTF-8
+encoding//WebRoot/css/findGrade.css=UTF-8
+encoding//WebRoot/css/index.css=UTF-8
+encoding//WebRoot/css/pageManage.css=UTF-8
+encoding//WebRoot/css/testQuestionManage.css=UTF-8
+encoding//WebRoot/css/userManage.css=UTF-8
+encoding//WebRoot/index.jsp=UTF-8
+encoding//WebRoot/loginRegister/login.jsp=UTF-8
+encoding//src/com/oes/servlet/ImportExcelServlet.java=UTF-8

@@ -1,0 +1,150 @@
+.information{
+	width: 50%;
+	height: 100%;
+	/* background-color: aqua; */
+	position: absolute;
+}
+.allNumber{
+	width: 50%;
+	height: 100%;
+	/* background-color: antiquewhite; */
+	position: absolute;
+	left: 50%;
+}
+.personInfor{
+	width: 60%;
+	/* height: 80%; */
+	padding-top: 2%;
+	padding-bottom: 2%;
+	background-color: white;
+	position: relative;
+	left: 20%;
+	top: 10%;
+	border: 2px solid #888888;
+	border-radius: 15px;
+}
+.IDInform{
+	/* background-color: #C3C3C3; */
+	width: 60%;
+	height: 23%;
+	position: relative;
+	left: 20%;
+	top: 2%;
+	
+}
+.headImg{
+	width: 50%;
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	
+	/* background: red; */
+}
+.headImg img{
+	border-radius: 100%;
+	width: 80%;
+	border: #1F98F3 2px solid;
+}
+.informName{
+	width: 20%;
+	display: inline-block;
+	background-color: antiquewhite;
+	vertical-align: middle;
+	/* position: relative;
+	bottom: 70%;
+	left: 50%; */
+}
+.schoolInform{
+	/* background-color: #92D1F4; */
+	height: 30%;
+	position: relative;
+	
+}
+.schoolInform table{
+	/* border: 0px; */
+	width: 70%;
+	position: relative;
+	left: 15%;
+	border: 0px;
+}
+.schoolInform button{
+	background-color: white;
+	color: coral;
+	border: 0px;
+	font-family: "楷体";
+	width: 20%;
+	position: relative;
+	left: 40%;
+}
+.schoolInform td{
+	border: 0px;
+}
+.inforTitle{
+	width: 30%;
+	text-align: right;
+	padding: 3% 5% 0% 0%;
+	font-family: "黑体";
+	font-size: 1rem;
+}
+.inforValue{
+	font-size: 0.8rem;
+}
+.changePass{
+	/* background-color: #F3B0AA; */
+	height:40% ;
+	/* display: none; */
+}
+.changePass form{
+	width: 90%;
+	
+	/* background-color: #FCED88; */
+	position: relative;
+	left: 5%;
+}
+.changePass input{
+	display: block;
+	width: 97%;
+	height:1.875rem;
+	margin-top: 4%;
+	font-size: 0.8rem;
+	font-family: "楷体";
+	padding-left:3% ;
+}
+#changePassSubmit{
+	font-size: 1rem;
+	font-family: "黑体";
+	width: 101%;
+}
+.allNumberBlock{
+	width: 80%;
+	height: 50%;
+	position: relative;
+	left: 10%;
+	top: 25%;
+}
+.questionNum,.testNum,.wrongNum,.readyNum{
+	width: 45%;
+	height: 40%;
+	display: inline-block;
+	border-radius: 15px;
+	text-align: center;
+	line-height: 400%;
+	font-family: "黑体";
+	font-size: 1.5rem;
+	color: white;
+}
+.questionNum{
+	margin-right: 8%;
+	margin-bottom: 10%;
+	background-color: #92D1F4;
+}
+.testNum{
+	background-color: #FCED88;
+}
+.readyNum{
+	background-color: #1F98F3;
+}
+.wrongNum{
+	margin-right: 8%;
+	background-color: #F3B0AA;
+}

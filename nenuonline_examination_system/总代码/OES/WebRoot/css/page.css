@@ -1,0 +1,45 @@
+*{
+	margin: 0rem;
+	padding: 0rem;
+}
+body{
+	padding-top: 2.5rem;
+	width: 100%;
+	line-height: 200%;
+}
+input{
+	border: 0rem;
+}
+
+h1{
+	text-align: center;
+}
+
+.examContent{
+	width: 80%;
+	position: relative;
+	left: 10%;
+}
+.question{
+	margin-bottom: 1%;
+}
+.question input{
+	margin-right: 1%;
+}
+.computationalProblem .question{
+	display: inline-block;
+	width: 25%;
+	margin-right: 5%;
+}
+.pageInformation{
+	width: 100%;
+	text-align: right;
+	margin-top: 0.625rem;
+	margin-bottom:0.625rem ;
+	font-weight: bold;
+}
+.pageInformation span{
+	display: inline-block;
+	margin-right: 5%;
+	
+}

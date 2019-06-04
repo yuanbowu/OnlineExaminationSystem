@@ -1,0 +1,126 @@
+.container{
+	/* background-color: #92D1F4; */
+	position: relative;
+<<<<<<< HEAD
+	
+=======
+>>>>>>> 89f1b4569a93aa53d10a0046249d00dcbedab386
+}
+.addChoose{
+	width: 100%;
+	height:4.375rem;
+	/* background-color: #F3B0AA; */
+	position: relative;
+	top: 3%;
+}
+.addChoose label{
+	position: relative;
+}
+#fileinp{
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+}
+#btn{
+    width: 10%;
+	height: 1.875rem;
+    background: white;
+    color: #1F98F3;
+    border: 2px solid #C3C3C3;
+    border-radius: 5px;
+}
+#oneAdd{
+	width: 10%;
+	height: 1.875rem;
+	background: white;
+	color: #1F98F3;
+	border: 2px solid #C3C3C3;
+	border-radius: 5px;
+	margin-top: 0.3%;
+}
+#text{
+	color: #1F98F3;
+}
+.oneAddContent{
+<<<<<<< HEAD
+	width: 50%;
+	height: 75%;
+=======
+>>>>>>> 89f1b4569a93aa53d10a0046249d00dcbedab386
+	background-color: #C3C3C3;
+	position: relative;
+	top: 10%;
+	border-radius: 20px;
+<<<<<<< HEAD
+	visibility: hidden;
+=======
+	padding-top: 5px;
+	padding-bottom: 5px;
+>>>>>>> 89f1b4569a93aa53d10a0046249d00dcbedab386
+}
+.oneAddContent form{
+	position: relative;
+	left: 6%;
+	top: 10%;
+<<<<<<< HEAD
+	
+=======
+
+>>>>>>> 89f1b4569a93aa53d10a0046249d00dcbedab386
+}
+.oneAddContent span{
+	display: inline-block;
+	margin-top: 20px;
+	width: 12%;
+	text-align: right;
+}
+.oneAddContent input{
+	display: inline-block;
+	height:35px;
+	width: 70%;
+	margin-top: 10px;
+	margin-left: 2%;
+	text-indent: 5%;
+	vertical-align: center;
+}
+.oneAddContent select{
+	text-indent: 5%;
+	display: inline-block;
+	width: 70%;
+	height:35px;
+	margin-top: 10px;
+	vertical-align: center;
+	margin-left: 2%;
+}
+.oneAddContent textarea{
+	width: 70%;
+	margin-top:10px ; 
+	margin-left: 2%;
+	text-indent: 5%;
+	/* display: inline-block; */
+	vertical-align: top;
+}
+.oneAddContent option{
+	text-indent: 5%;
+}
+.oneAddContent #addStudentForm{
+	width: 10%;
+	position: relative;
+	left: 76.8%;
+	top: 6%;
+	border: #1F98F3 2px solid;
+	background-color: white;
+	border-radius: 5px;
+}
+<<<<<<< HEAD
+=======
+.spanwide{
+	width: 150px;
+	text-align: right;
+	
+}
+>>>>>>> 89f1b4569a93aa53d10a0046249d00dcbedab386
+/* #oneOption,#oneAnswer{
+	visibility: hidden;
+} */
